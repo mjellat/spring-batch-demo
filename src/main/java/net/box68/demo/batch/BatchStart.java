@@ -1,8 +1,7 @@
-package batch;
+package net.box68.demo.batch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 
@@ -16,6 +15,6 @@ public class BatchStart {
 
     public static void main(final String[] args) {
 
-        ApplicationContext ctx = SpringApplication.run(BatchStart.class, args);
+        SpringApplication.run(BatchStart.class, args);
     }
 }
